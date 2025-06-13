@@ -80,7 +80,7 @@ prompt-generator-fullstack/
 │   └── package.json
 ├── package.json
 └── README.md
-\`\`\`
+\\\
 
 ## 📋 Tech Stack
 
@@ -104,7 +104,7 @@ prompt-generator-fullstack/
 
 ### Clone the Repository
 \`\`\`bash
-git clone https://github.com/yourusername/ai-prompt-generator.git
+git clone [https://github.com/yourusername/ai-prompt-generator.git](https://github.com/SammedBG/Ai-Prompt-Generator.git)
 cd ai-prompt-generator
 \`\`\`
 
