@@ -39,7 +39,7 @@
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 prompt-generator-fullstack/
 ├── backend/
 │   ├── models/
@@ -80,7 +80,7 @@ prompt-generator-fullstack/
 │   └── package.json
 ├── package.json
 └── README.md
-\\\
+```
 
 ## 📋 Tech Stack
 
@@ -104,25 +104,25 @@ prompt-generator-fullstack/
 
 ### Clone the Repository
 ```bash
-git clone [https://github.com/yourusername/ai-prompt-generator.git](https://github.com/SammedBG/Ai-Prompt-Generator.git)
-cd ai-prompt-generator
+git clone https://github.com/SammedBG/Ai-Prompt-Generator.git
+cd Ai-Prompt-Generator
 ```
 
 ### Install Dependencies
-\`\`\`bash
+```bash
 # Install root dependencies
 npm install
 
 # Install all dependencies (frontend and backend)
 npm run install-deps
-\`\`\`
+```
 
 ## ⚙️ Configuration
 
 ### Backend Configuration
 Create a `.env` file in the `backend` directory (copy from `.env.example`):
 
-\`\`\`env
+```env
 # Server Configuration
 NODE_ENV=development
 PORT=5000
@@ -142,32 +142,32 @@ RATE_LIMIT_MAX_REQUESTS=100
 
 # Google Gemini API Key (required for AI-enhanced optimization)
 GEMINI_API_KEY=your_gemini_api_key_here
-\`\`\`
+```
 
 ### Frontend Configuration
 Create a `.env` file in the `frontend` directory (copy from `.env.example`):
 
-\`\`\`env
+```env
 REACT_APP_API_URL=http://localhost:5000/api
-\`\`\`
+```
 
 ## 🚀 Running the Application
 
 ### Development Mode
-\`\`\`bash
+```bash
 # Start both frontend and backend
 npm run dev
 
 # Or run separately
 npm run server  # Backend only
 npm run client  # Frontend only
-\`\`\`
+```
 
 ### Production Mode
-\`\`\`bash
+```bash
 npm run build
 npm start
-\`\`\`
+```
 
 ## 🔑 Getting a Gemini API Key
 
@@ -235,12 +235,12 @@ The application uses Google's Gemini 1.5 Flash model to generate high-quality pr
 ### Example Transformation
 
 **Basic Input:**
-\`\`\`
+```
 "Help me write better code"
-\`\`\`
+```
 
 **Gemini-Enhanced Output:**
-\`\`\`
+```
 You are a senior software engineer with expertise in clean code principles, 
 software architecture, and modern development practices.
 
@@ -268,7 +268,7 @@ Before finalizing your response, verify that you have:
 - Provided concrete examples and code snippets where relevant
 - Ensured all recommendations follow current industry standards
 - Included implementation guidance and potential challenges
-\`\`\`
+```
 
 ## 🚀 Deployment
 
@@ -324,7 +324,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 <div align="center">
   <p>© 2025 AI Prompt Generator</p>
 </div>
-\`\`\`
+```
 
 The README.md file has been updated to match your project's structure and implementation! I've made several key improvements:
 
