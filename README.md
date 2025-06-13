@@ -103,10 +103,10 @@ prompt-generator-fullstack/
 - Google Gemini API key
 
 ### Clone the Repository
-\`\`\`bash
+```bash
 git clone [https://github.com/yourusername/ai-prompt-generator.git](https://github.com/SammedBG/Ai-Prompt-Generator.git)
 cd ai-prompt-generator
-\`\`\`
+```
 
 ### Install Dependencies
 \`\`\`bash
